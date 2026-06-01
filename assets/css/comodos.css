@@ -42,7 +42,7 @@ main {
     align-items: center;
     justify-content: center;
     font-size: 55px;
-    color: #9b9191;
+    color: #413425;
     padding: 20px;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -65,29 +65,28 @@ main img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 a {
-    width: 15%;
+    width: 10%;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: antiquewhite;
     text-decoration: none;
     font-weight: bolder;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid #413425;
+    background-color: #413425;
     padding: 20px;
-    border-radius: 7px;   
+    border-radius: 30px;   
 }
 
 a:hover {
-    width: 15%;
+    width: 10%;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #413425;
     text-decoration: none;
     font-weight: bolder;
-    background-color: #b9b9b9;
-    border: 3px solid #413425;
+    background-color: antiquewhite;
+    border: 2px solid #413425;
     padding: 20px;
-    border-radius: 7px;   
+    border-radius: 30px;   
 }

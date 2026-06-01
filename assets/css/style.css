@@ -1,16 +1,3 @@
-/* PARTE GERAL */
-
-/*
-CORES: 
-    PARTE 01: 
-        - #413425 = BEJE ESCURO;
-        - #f0ca9d = BEJE CLARO;
-        - #FFFFFF = BRANCO
-    
-    PARTE 02:
-        - #A38560 = BEJE FUNDO DA TELA;
-*/
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -87,7 +74,7 @@ main {
     padding: 20px;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    color: #9b9191;
+    color: #413425;
 }
 
 .apresentacao p {
@@ -98,10 +85,6 @@ main {
     padding: 20px;
     text-align: center;
 }
-
-/* FOTOS UMA AO LADO DA OUTRA */
-
-/* INICIO 01 */
 
 .areas_img_txt {
     width: 99vw;
@@ -157,8 +140,6 @@ main {
     text-decoration: none;
 }
 
-/* TERMINOU */
-
 .link_pages {
     width: 35%;
     text-align: center;
@@ -173,7 +154,6 @@ main {
 
 p {
     text-align: justify;
-    /*text-indent: 10px;*/
     font-size: 1.2em;
 }
 
@@ -200,7 +180,6 @@ main .fotos-normais::after{
     transform: scale(1.15,1.15);
 }
 
-/* PARTE 01 */
 .partes {
     height: 550px;
     display: flex;
@@ -223,8 +202,6 @@ main .fotos-normais::after{
 .conteudo p {
     font-size: 1.3em;
 }
-
-/* PARTE 02 */
 
 .partes2 {
     height: 550px;
@@ -256,8 +233,6 @@ main .fotos-normais::after{
 .corpo_imagem img {
     width: 1000px;
 }
-
-/* IMAGEM DE TAMANHOS DOS MÓVEIS */
 
 .area_imagem_tamanho img{
     max-width: 60vw;
@@ -293,8 +268,6 @@ main .fotos-normais::after{
     width: 80%;
 }
 
-/* FORMULÁRIO */
-
 .ultima_parte {
     width: 100vw;
     display: flex;
@@ -318,7 +291,7 @@ main .fotos-normais::after{
 }
 
 .ultima_parte_01_texto h1 {
-    color: #dadada;
+    color: antiquewhite;
 }
 
 #texto_e_icon {
@@ -346,7 +319,7 @@ form{
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    color: white;
+    color: antiquewhite;
 }
 
 .formulario_caixas{
@@ -362,13 +335,45 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #8a704f;
     gap: 15px;
     border-radius: 05px;
 }
+/*
+.link {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    width: 10%;
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #413425;
+    padding: 20px;
+    border-radius: 30px;   
+}
+
+a:hover {
+    width: 10%;
+    text-align: center;
+    color: #413425;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    border: 2px solid #413425;
+    padding: 20px;
+    border-radius: 30px;   
+}
+    */
 
 input {
     height: 37px;
+    border: none;
     border-radius: 5px;
     font-size: 17px;
 }
@@ -392,28 +397,26 @@ textarea:focus {
 
 button {
     width: 100%;
-    height: 50px;
-    font-size: 17px;
-    align-items: center;
+    text-align: center;
+    color: antiquewhite;
     text-decoration: none;
     font-weight: bolder;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid #413425;
-    padding: 10px;
-    border-radius: 7px;
+    background-color: #413425;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;  
 }
 
 button:hover {
     width: 100%;
-    height: 50px;
-    align-items: center;
+    text-align: center;
+    color: #1f1912;
     text-decoration: none;
     font-weight: bolder;
-    color: black;
-    background-color: #e6e6e6;
-    border: 3px solid #49351f;
-    padding: 10px;
-    border-radius: 7px;
+    background-color: #8a704f00;
+    border: 2px solid #1f1912;
+    padding: 20px;
+    border-radius: 30px;  
 }
 
 iframe {
